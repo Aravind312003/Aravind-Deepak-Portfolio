@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #ffffff;
+    color: #111;
+    transition: 0.3s;
+}
+
+.dark-mode {
+    background: #111;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    position: fixed;
+    width: 100%;
+    background: inherit;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+
+.hero h1 span {
+    color: #555;
+}
+
+section {
+    padding: 100px 10%;
+}
+
+.skill {
+    margin-bottom: 15px;
+}
+
+.progress {
+    background: #ddd;
+    height: 8px;
+}
+
+.progress-bar {
+    height: 8px;
+    background: #111;
+    transition: width 1s ease-in-out;
+}
+
+.dark-mode .progress-bar {
+    background: #fff;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
